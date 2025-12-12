@@ -376,56 +376,98 @@ anagram
 /*==================================== Question No 21 =========================================
 count occurence
 ======================================= Answer =====================================*/
-let arr = ['a','b','b','a','c','d','c']
-let count = {}
-arr.forEach((ele)=>{
-    if(count[ele]){
-        count[ele] = count[ele]+1
-    }
-    else{
-        count[ele] = 1
-    }
-})
-console.log(count)
+// let arr = ['a','b','b','a','c','d','c']
+// let count = {}
+// arr.forEach((ele)=>{
+//     if(count[ele]){
+//         count[ele] = count[ele]+1
+//     }
+//     else{
+//         count[ele] = 1
+//     }
+// })
+// console.log(count)
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 22 =========================================
+flatten array
 ======================================= Answer =====================================*/
+// let arr = [1,2,[3,4],5,[6]];
+// let str = arr.join(',')
+// let spl = str.split(',');
+// spl = spl.map(Number)
+// console.log(spl)
+// console.log(str)
+
+// let arr = [1,2,[3,4],5,[6]];
+// let flt = [];
+// for(let i = 0;i <arr.length;i++){
+//     if(Array.isArray(arr[i])){
+//         for(let j = 0 ; j < arr[i].length;j++)
+//         {
+//             flt.push(arr[i][j])
+//         }
+//     }
+//     else (flt.push(arr[i]))
+// }
+// console.log(flt)
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 23 =========================================
+anagram
 ======================================= Answer =====================================*/
+// function isAnagram(a,b){
+//     return(
+//         a.split('').sort().join() === b.split('').sort().join()
+//     )
+// }console.log(isAnagram('silent','listen'))
 
 
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 24 =========================================
+unique arr
 ======================================= Answer =====================================*/
+// let arr = [1,2,2,3,4,5,5,6,6,7,8]
+// let unique = [];
+// function uniqueArray(a){
+//     let unique = [];
+//     for(let i = 0; i< arr.length;i++){
+//         if(!unique.includes(a[i])){
+//             unique.push(a[i])
+//         }
+//     }
+//     return unique
+// }
 
+// let ans =uniqueArray(arr)
+// console.log(ans)
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 25 =========================================
+reverse string
 ======================================= Answer =====================================*/
+// let str = 'maham';
+// let reverse = '';
+// for(let i = str.length-1;i >=0;i--){
+//     reverse = reverse + str[i]
+   
+    
+// }
+// console.log(reverse)
+// if(str === reverse){
+//     console.log('palindrome')
+// }
+// else{console.log('not palindrom')}
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 26 =========================================
+factorial 
 ======================================= Answer =====================================*/
-
-
-
+// let num = 5;
+// let factorial = 1;
+// for(let i = 1 ; i <= num;i++)
+// {
+//    factorial =factorial*i
+// }
+// console.log(factorial)
 
 
 
