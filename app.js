@@ -471,56 +471,139 @@ factorial
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 27 =========================================
+count vowels and consonants in string
 ======================================= Answer =====================================*/
 
+// let str = 'A laxy brown fox jump over the dog';
+// let str = 'A lazy fox jumps over the fast dog   ';
+// str = str.replaceAll(' ','');
+
+// console.log(str)
+// console.log('length ',str.length)
+// console.log(str)
+// str = str.toLowerCase()
+// let vowel = '';
+// let constant = '';
+// for(let i = 0; i < str.length;i++){
+//     // console.log(str[i])
+//     if(str[i] ==='a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o'|| str[i] === 'o'){
+//         vowel = vowel + str[i]
+//     }
+//     else{
+//         constant = constant + str[i]
+//     }
+// }
+// console.log(vowel);
+// console.log(constant)
+// let vowelLength = vowel.length;
+// let contantLength = constant.length;
+// console.log(vowelLength);
+// console.log(contantLength);
 
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 28 =========================================
+find missing number
 ======================================= Answer =====================================*/
 
+// let arr = [1,2,4,5,6,7,8];
+// let missing   = '';
+// for(let i = 1; i <=8;i++)
+// {
+//     if(arr.indexOf(i) === -1){
+//         console.log('missing no : ' + i)
+//         missing = missing + i
+//     }
+// }
+// console.log(missing)
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 29 =========================================
+Reverse a number
 ======================================= Answer =====================================*/
+// let number = 12345;
+// number = number.toString();
+// let reverse = '';
+// for(let i = number.length - 1; i >=0;i--)
+//     reverse = reverse + number[i]
+
+// console.log(reverse)
 
 
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 30 =========================================
+check palindrome number
 ======================================= Answer =====================================*/
+// // let number = 121;
+// // number = number.toString();
+// // function checkPalindrome(num){
+// //     var reverse = '';
+// //     for(let i = num.length-1;i>=0;i--){
+// //     //   console.log(num[i])
+// //     reverse = reverse + num[i]
+       
+// //     }
+// //      if(reverse === number){
+// //         console.log(`${number} is palindrome`)
+// //      }
+// //      else{
+// //         console.log(`${number} is not palindrome`)
+// //      }
+
+// // }
+
+// checkPalindrome(number)
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 31 =========================================
+sum of only even numbers in an array; let arr = [1, 2, 3, 4, 5, 6];
 ======================================= Answer =====================================*/
+// let arr = [1, 2, 3, 4, 5, 6];
+// function addEvenNumbers(array){
+//     let even = [];
+//     let sum = 0;
+//     for(let num of array){
+//         if(num % 2 === 0){
+//             even.push(num);
+           
+//         }
+       
+//     }
+//  console.log(even);
+// //  for loop on even number for adding 
+// for(let i = even.length-1;i >= 0; i--){
+//     sum = sum + even[i]
+// }console.log(sum)
+// }
+
+// addEvenNumbers(arr)
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 32 =========================================
+add odd number of array 
 ======================================= Answer =====================================*/
+// let arr = [1,2,3,4,5];
+// function addOddNumbers(array){
+//     let odd = [];
+//     for(let i = 0;i < array.length;i++){
+//         if(array[i] % 2 !== 0){
+//             odd.push(array[i])
+           
+//         }
 
-
+//     }
+//    let sum = 0;
+//    for(let i = 0;i < odd.length;i++){
+//     sum = sum + odd[i]
+//    }
+// console.log(sum)
+// }
+// addOddNumbers(arr)
 
 
 
