@@ -652,60 +652,90 @@ return sum of array in funciton
 alic bob
 ======================================= Answer =====================================*/
 
-function compareTriplets(a,b){
-    let aliceScore = 0;
-    let bobScore = 0;
-    for(let i = 0;i <3 ;i++){
-        if(a[i] > b[i]){
-            aliceScore++;
-        }
-        else if(a[i] < b[i]){
-            bobScore++;
-        }
+// function compareTriplets(a,b){
+//     let aliceScore = 0;
+//     let bobScore = 0;
+//     for(let i = 0;i <3 ;i++){
+//         if(a[i] > b[i]){
+//             aliceScore++;
+//         }
+//         else if(a[i] < b[i]){
+//             bobScore++;
+//         }
 
         
-    }
-    return [aliceScore,bobScore]
+//     }
+//     return [aliceScore,bobScore]
 
+// }
+
+// let alice = [5,6,17];
+// let bob = [3,6,10]
+// let ans = compareTriplets(alice,bob)
+
+// console.log(ans)
+/*==================================== Question No 36 =========================================
+difference among var/let / const
+======================================= Answer =====================================*/
+/* var = 
+we can decalare var again , 
+we var is hoisted 
+var is not block scope but var is only function scope 
+var can be overwrited 
+
+let = 
+we can not redeclare let 
+let can be reassigned 
+let is not hoisted 
+let is functin scope and block scoped 
+
+const ;
+we can not redeclare const 
+we can not reassign const 
+const is  not hoisted 
+const is function scope and block scoped also */
+// 
+
+
+/*==================================== Question No 37 =========================================
+event Bubbling
+======================================= Answer =====================================*/
+/* function parentClick() {
+  alert("Parent clicked");
 }
 
-let alice = [5,6,17];
-let bob = [3,6,10]
-let ans = compareTriplets(alice,bob)
+function childClick(event) {
+  alert("Child clicked");
+  // Stop bubbling if you want
+  // event.stopPropagation();
+  event.stopPropagation()
+} */
 
-console.log(ans)
-/*==================================== Question No 1 =========================================
 
+/*==================================== Question No 38 =========================================
+event Capturing
 ======================================= Answer =====================================*/
 
 
+// function parentClick() {
+//   alert("Parent clicked first (capturing simulated)");
+// }
+
+// function childClick() {
+//   alert("Child clicked");
+// }
 
 
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 39 =========================================
 
 ======================================= Answer =====================================*/
+let get = document.getElementById('btn');
+get.addEventListener('click',myFn)
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
+function myFn(){
+    document.body.style.background = 'red';
+    get.innerHTML = 'i m button'
+}
 
 /*==================================== Question No 1 =========================================
 
