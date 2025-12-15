@@ -607,32 +607,73 @@ add odd number of array
 
 
 
-/*==================================== Question No 1 =========================================
-https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
+
+/*==================================== Question No 33 =========================================
+small concepts
+======================================= Answer =====================================*/
+// console.log(String.raw`HelloTwitter\nworl`);
+// console.log(typeof NaN)
+// console.log(1 + '2' + '2');
+// console.log(3>2>1>0);
+// console.log(3>2);
+// console.log(1<2<3);
+// console.log(4<8);
+// let number =  [33,2,8];
+// number = number.sort();
+// console.log(number)
+// console.log(number[1])
+// // console.log(0.1 + 0.2 == 0.3)
+// // console.log('This is a string.' instanceof String)
+// // console.log(018-015)
+// console.log(typeof typeof 1);
+// console.log(typeof 1);
+// console.log( typeof 'h')
+// console.log(typeof typeof 'h')
+/*==================================== Question No 34 =========================================
+return sum of array in funciton
+======================================= Answer =====================================*/
+// let arr = [1,2,3];
+// function adddition(array){
+//     // console.log(array)
+//     let sum = 0;
+//     for(let i = 0 ;i < array.length;i++){
+//         console.log(array[i]);
+//         sum = sum + array[i];
+       
+//     }
+//      return sum
+
+// }
+// let ans = adddition(arr);
+// console.log(ans)
+
+
+/*==================================== Question No 35 =========================================
+alic bob
 ======================================= Answer =====================================*/
 
-/*==================================== Question No 1 =========================================
+function compareTriplets(a,b){
+    let aliceScore = 0;
+    let bobScore = 0;
+    for(let i = 0;i <3 ;i++){
+        if(a[i] > b[i]){
+            aliceScore++;
+        }
+        else if(a[i] < b[i]){
+            bobScore++;
+        }
 
-======================================= Answer =====================================*/
+        
+    }
+    return [aliceScore,bobScore]
 
+}
 
+let alice = [5,6,17];
+let bob = [3,6,10]
+let ans = compareTriplets(alice,bob)
 
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
+console.log(ans)
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
